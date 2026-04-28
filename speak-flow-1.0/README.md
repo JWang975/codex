@@ -91,8 +91,6 @@ speak-flow-1.0/
     package.json
     pnpm-lock.yaml
     data/settings.example.json
-  release/
-    Speak-flow-1.0-macOS-arm64.zip
 ```
 
-下载 zip 本地保存在 `release/`，GitHub 上以 Release asset 为准，不把大文件塞进源码目录。
+下载 zip 本地交付包保存在 `release/`，GitHub 上以 Release asset 为准，不把大文件塞进源码目录。
