@@ -1,0 +1,35 @@
+{
+  "name": "speak-flow",
+  "version": "0.1.0",
+  "productName": "Speak flow",
+  "description": "Speak flow - macOS AI voice input tool",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "node scripts/electron-dev.mjs",
+    "dev:web": "node scripts/dev.mjs",
+    "build": "vite build",
+    "start": "electron .",
+    "start:web": "node server.mjs",
+    "app:build": "pnpm build && node scripts/build-mac-app.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "33.4.11",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild"
+    ]
+  }
+}

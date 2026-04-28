@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+dist/
+release/*.app/
+app/node_modules/
+app/dist/
+app/release/
+app/data/settings.json
+app/data/history.json
+*.log
+*.tmp
+
