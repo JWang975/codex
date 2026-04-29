@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+dist/
+release/*.app/
+release/*.dmg
+release/*.sha256
+release/dmg-staging/
+app/node_modules/
+app/dist/
+app/release/
+app/data/settings.json
+app/data/history.json
+*.log
+*.tmp
